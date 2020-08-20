@@ -45,7 +45,7 @@ const updateCity= async(city)=>{
         weather: weather}
 }
 
-cityForm.addEventListener('submit',e=>{
+cityForm.addEventListener('touchend',e=>{
     e.preventDefault();
     const city=cityForm.city.value.trim();
     cityForm.reset();
